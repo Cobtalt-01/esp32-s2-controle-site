@@ -6,6 +6,7 @@ import { getDatabase, ref, set, get } from "https://www.gstatic.com/firebasejs/1
 const firebaseConfig = {
   apiKey: "AIzaSyDKwdDRg_PXb-SHeBodFs_Un5YZkFn7hDU",
   authDomain: "controle-esp32-s2-led.firebaseapp.com",
+  databaseURL: "https://controle-esp32-s2-led-default-rtdb.firebaseio.com/",
   projectId: "controle-esp32-s2-led",
   storageBucket: "controle-esp32-s2-led.firebasestorage.app",
   messagingSenderId: "1051760604536",
